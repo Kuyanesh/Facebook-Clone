@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    font-family: inherit;
+}
+
+.container-box {
+    background-color: #fff;
+}
+
+.container-box .box {
+    width: 400px;
+    height: 360px;
+    float: right;
+    background-color: #fff;
+    margin-top: 120px;
+    margin-right: 180px;
+    border-radius: 10px;
+    box-shadow: 0px 13px 13px rgba(26, 25, 25, 0.1);
+}
+
+.container-box .box input {
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 203, 203);
+}
+
+.container-box .box .button {
+    padding: 13px 152px;
+    margin-top: 40px;
+    border-radius: 7px;
+    background-color: rgb(45, 123, 196);
+    color: #fff;
+    text-decoration: solid;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    border-style: none; 
+    cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+    width: 90%;
+    display: inline-block;
+    font-size: 1rem;
+}
+
+input:focus {
+    box-shadow: 0 0 5px blue; 
+    outline: none;
+    border: 2px solid blue;
+}
+
+.link {
+    margin-left: 145px;
+    margin-top: 15px;
+}
+
+.link a {
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: rgb(67, 127, 184);
+}
+
+/* Modal Form */
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(63, 63, 63, 0.7);
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+  }
+
+.container {
+    width: 400px;
+    height: 370px;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 120px;
+    margin-left: 30px;
+    border-radius: 7px;
+}
+
+.container .text-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    margin-left: 115px;
+    position: absolute;
+    margin-top: 20px;
+
+}
+
+.container .form-line {
+    position: relative;
+    top: 27px;
+    margin-left: 0;
+}
+
+.container input {
+    margin-left: 20px;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(207, 203, 203);
+}
+
+.container .button {
+    padding: 9px 152px;
+    margin-top: 57px;
+    border-radius: 7px;
+    background-color: rgb(45, 123, 196);
+    color: #fff;
+    text-decoration: solid;
+    font-size: 1.2rem;
+    margin-left: 20px;
+    border-style: none; 
+    cursor: pointer;
+}
+
+input[type=text], input[type=password] {
+    width: 90%;
+    display: inline-block;
+    font-size: 1rem;
+    position: relative;
+    top: 27px;
+}
+
+input:focus {
+    box-shadow: 0 0 5px blue; 
+    outline: none;
+    border: 1px solid blue;
+}
+
+.container .checkbox {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    top: 25px;
+}
+
+.container span {
+    position: relative;
+    top: 21px;
+}
+
+.container span {
+    margin-left: 5px;
+    color: #636363;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .form-line {
+    width: 100%;
+}
+
+.container .close-modal {
+    float: right;
+    padding: 0 9px;
+    background-color: #e9e4e4;
+    border-radius: 30px;
+    font-size: 1.9rem;
+    top: 10px;
+    margin-right: 13px;
+    cursor: default;
+}
+
+.close-modal:hover {
+    background-color: #e4dede;
+}
+
+.modal-link {
+    margin-left: 140px;
+    margin-top: 27px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.modal-link a {
+    text-decoration: none;
+}
+
+.modal-link a:hover {
+    text-decoration: underline;
+}
+
+.info {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 180px;
+}
+
+.info h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    color: rgb(45, 123, 196);
+}
+
+.info p {
+    font-size: 15px;
+    margin-top: 4px;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.info h5 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    color: #222222;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    width: 360px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.container-box .create .btn {
+    padding: 15px 18px;
+    font-weight: bolder;
+    margin-top: 20px;
+    border-radius: 7px;
+    background-color: rgb(43, 182, 38);
+    color: #fff;
+    text-decoration: solid;
+    font-size: 1rem;
+    margin-left: 115px;
+    border-style: none; 
+    cursor: pointer;
+}
+
+.container-box .create .btn:hover {
+    background-color: rgb(41, 175, 41);
+}
+
+.link-text {
+    display: flex;
+    position: absolute;
+    bottom: 125px;
+    right: 220px;
+    color: #1f1e1e;
+    font-size: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-text a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #000;
+}
+
+.link-text a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    width: 300px;
+    position: absolute;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.1rem;
+    padding-top: 230px;
+    margin-left: 180px;
+}
+
+.card-container .card{
+    flex:1 1 5rem;
+    height:12.8rem;
+    max-width: 10rem;
+    position: relative;
+    overflow:hidden;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    background:#fff;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.card-container .card img{
+    height:100%;
+    width:100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.times-icon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 0 4px;
+    font-size: 16px;
+    color: #fff; 
+    background-color: #7c7c7c; 
+    border-radius: 30px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.times-icon:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #fff;
+    color: #666;
+    padding: 0 6px;
+    font-size: 21px;
+    transform: translateX(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.add-icon {
+    padding: 0 11px;
+    color: #fff;
+    border-radius: 30px;
+    background-color: rgb(53, 96, 238);
+    position: absolute;
+    transform: rotate(45deg);
+    font-weight: bolder;
+    top: 290px;
+    font-size: 2.3rem;
+    left: 595px;
+    z-index: 1;
+}
+
+.notification-1 {
+    position: absolute;
+    top: 225px;
+    right: 1005px;
+    padding: 3px 8px;
+    font-size: 16px;
+    color: #fff; 
+    background-color: rgb(235, 37, 37); 
+    border-radius: 30px;
+    font-weight: lighter;
+    z-index: 1;
+    display: flex;
+}
+
+.notification-2 {
+    position: absolute;
+    top: 225px;
+    right: 825px;
+    padding: 3px 8px;
+    font-size: 16px;
+    color: #fff; 
+    background-color: rgb(235, 37, 37); 
+    border-radius: 30px;
+    font-weight: lighter;
+    z-index: 1;
+    display: flex;
+}
+
+.card-container .card p{
+    position: absolute;
+    bottom:.7rem; left:3.2rem;
+    font-size: 1.1rem;
+    color:#575656;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container .card .text-info {
+    font-size: 1.1rem;
+    color: rgb(51, 143, 230);
+    position: absolute;
+    bottom:.7rem; left:1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container .card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.multiplication-symbol {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+  
+.footer{
+    margin-top: 37.5rem;
+    font-size: .8rem;
+    padding: 4.7rem;
+    color:#666;
+    background: #fff;
+    display: flex;
+    position: absolute;
+}
+
+.footer li {
+    display: inline;
+    padding: 3px;
+    color: #666;
+    position: relative;
+    bottom: 48px;
+    font-size: 12px;
+}
+
+.footer li a {
+    text-decoration: none;
+    color: #888686;
+}
+
+.footer li a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-platform-1 {
+    display: inline;
+    padding: 3px;
+    color: #666;
+    position: absolute;
+    bottom: 22px;
+    font-size: .8rem;
+}
+
+.footer .fas {
+    padding: 2px 7px;
+    background-color: #f8f4f4;
+    border: 1px solid #b4b1b1;
+    position: absolute;
+    cursor: pointer;
+}
+
+.footer .line {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 35px;
+    left: 57px;
+}
